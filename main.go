@@ -16,5 +16,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	p.Start()
+	log.Fatal(p.Start())
 }
